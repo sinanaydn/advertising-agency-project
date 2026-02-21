@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="32" height="32" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="3900 10400 8600 8600"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="g0" gradientUnits="userSpaceOnUse" x1="3992.96" y1="13692.44" x2="10136.56" y2="13692.44">
+   <stop offset="0" style="stop-opacity:1; stop-color:#3683C4"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#41A4DC"/>
+  </linearGradient>
+  <linearGradient id="g1" gradientUnits="userSpaceOnUse" x1="10277.8" y1="13251.56" x2="10764.52" y2="13251.56">
+   <stop offset="0" style="stop-opacity:1; stop-color:#3683C4"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#41A4DC"/>
+  </linearGradient>
+  <linearGradient id="g2" gradientUnits="objectBoundingBox" x1="0%" y1="50%" x2="104.361%" y2="50%">
+   <stop offset="0" style="stop-opacity:1; stop-color:#3683C4"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#41A4DC"/>
+  </linearGradient>
+  <linearGradient id="g3" gradientUnits="userSpaceOnUse" x1="7431.27" y1="12809.66" x2="8681.07" y2="12809.66">
+   <stop offset="0" style="stop-opacity:1; stop-color:#3683C4"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#41A4DC"/>
+  </linearGradient>
+  <linearGradient id="g5" gradientUnits="userSpaceOnUse" x1="5485.67" y1="13253.39" x2="7937.41" y2="13253.39">
+   <stop offset="0" style="stop-opacity:1; stop-color:#FEFEFE"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#B6B4B4"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <polygon fill="url(#g5)" points="7557.88,13477.68 7370.53,13026.48 7277.28,12802.17 7090.35,12350.96 6771.5,12350.96 6771.5,12350.96 6651.18,12350.96 6651.18,12350.96 6332.76,12350.96 6145.4,12802.17 6052.58,13026.48 5865.22,13477.68 5583.76,14155.78 6072.35,14155.78 6353.81,13477.68 6540.74,13026.48 6633.99,12802.17 6789.12,12802.17 6881.94,13026.48 7069.29,13477.68 7350.76,14155.78 7839.35,14155.78 "/>
+  <polygon fill="url(#g2)" points="8486.96,12778.09 8094.22,12350.94 7481.41,12350.94 8180.58,13111.56 8324.53,13268.38 8630.94,12934.93 "/>
+  <path fill="url(#g3)" d="M11845.93 12362.78c-42.97,-10.31 -87.68,-15.46 -133.65,-15.46l-793.52 0 0 451.2 753.55 0c95.84,0 173.62,77.8 173.62,173.62l0 555.19c0,95.81 -77.79,173.6 -173.62,173.6l-753.55 0 0 451.22 793.52 0c20.63,0 40.82,-0.87 61.02,-3.01 24.49,-2.58 49,-6.88 72.63,-12.47 216.58,-50.26 387.17,-221.72 436.6,-438.73 9.45,-42.12 14.6,-85.53 14.6,-130.64l0 -635.56c0,-276.74 -192.51,-508.79 -451.2,-568.96l0 0z"/>
+  <polygon fill="url(#g1)" points="10297.33,12354.11 10745,12354.11 10745,14149 10297.33,14149 "/>
+  <polygon fill="url(#g3)" points="9501.55,12350.94 9382.52,12480.3 9113.06,12773.78 8951.52,12949.55 8806.25,13107.27 8797.67,13116.71 8797.67,13116.71 8491.29,13449.73 8491.29,13450.16 8500.3,13459.63 8563.46,13528.38 8572.04,13537.84 8572.04,14155.78 9023.26,14155.78 9023.26,13538.25 9032.31,13528.38 9104.05,13450.16 9113.06,13440.72 9419.48,13107.27 10114.32,12350.94 "/>
+  <path fill="url(#g0)" d="M5115.59 13774.18c-174.64,-1519.27 977.5,-2946.27 2812.55,-2546.24 -1895.46,-756.2 -3524.91,661.08 -3676.7,2226.4 -176.24,1817.62 1620.15,3167.01 3344.44,2871.4 1070.91,-183.59 2063.67,-966.59 2294.27,-2597.64 -380.38,1530.64 -1717.61,2318.72 -2956.26,2056.78 -1022.46,-216.22 -1700.38,-984.84 -1818.3,-2010.7z"/>
+ </g>
+</svg>
