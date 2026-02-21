@@ -41,7 +41,7 @@ export async function POST(request: NextRequest) {
     if (!result.success) {
       console.error('Category validation error:', result.error.flatten());
       return NextResponse.json(
-        { success: false, error: result.error.errors[0]?.message || 'Geçersiz veri' },
+        { success: false, error: result.error.issues[0]?.message || 'Geçersiz veri' },
         { status: 400 }
       );
     }
