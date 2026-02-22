@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { LogoLink } from '@/components/logo-link';
 
 const navItems = [
   { href: '/', label: 'Ana Sayfa' },
@@ -23,16 +24,16 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-sm">
       <div className="container flex h-20 items-center justify-between">
-        <Link href="/">
+        <LogoLink>
           <Image
             src="/images/logo.svg"
-            alt="Aydemir Reklam"
+            alt="AYD Reklam"
             width={320}
             height={80}
             className="h-14 md:h-[72px] w-auto"
             priority
           />
-        </Link>
+        </LogoLink>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-6">
