@@ -6,7 +6,7 @@ import { AnimatedHeading } from '@/components/ui/animated-heading';
 
 export const metadata: Metadata = {
   title: 'Projeler',
-  description: 'Tamamladığımız reklam, tabela ve tasarım projeleri. Logo tasarım, kutu harf, dijital baskı ve daha fazlası.',
+  description: 'AYD Reklam olarak tamamladığımız reklam, tabela ve tasarım projeleri. Logo tasarım, kutu harf, dijital baskı ve daha fazlası.',
   alternates: {
     canonical: 'https://aydemireklam.com/projeler',
   },
