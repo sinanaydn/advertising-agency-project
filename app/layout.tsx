@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | AYD Reklam",
   },
   description:
-    "Logo tasarım, tabela, dijital baskı ve reklam çözümleri. Gaziantep'in güvenilir reklam atölyesi.",
+    "AYD Reklam olarak logo tasarım, tabela, dijital baskı ve reklam çözümleri. Gaziantep'in güvenilir reklam atölyesi.",
   keywords: ['reklam', 'tabela', 'logo tasarım', 'dijital baskı', 'Gaziantep', 'Aydemir reklam', 'Gaziantep Reklam', 'aydreklam'],
   authors: [{ name: 'AYD Reklam' }],
   openGraph: {

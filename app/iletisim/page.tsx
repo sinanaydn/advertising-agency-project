@@ -8,7 +8,7 @@ import { FadeInUp } from '@/components/ui/fade-in-up';
 
 export const metadata: Metadata = {
   title: 'İletişim',
-  description: 'Reklam Atölyesi ile iletişime geçin. Projeleriniz için teklif alın.',
+  description: 'AYD Reklam ile iletişime geçin. Projeleriniz için teklif alın.',
   alternates: {
     canonical: 'https://aydemireklam.com/iletisim',
   },
