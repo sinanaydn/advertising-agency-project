@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Phone, Mail, MapPin, Instagram } from 'lucide-react';
 import { createClient } from '@/lib/supabase/server';
+import { LogoLink } from '@/components/logo-link';
 
 const quickLinks = [
   { href: '/', label: 'Ana Sayfa' },
@@ -34,16 +35,19 @@ export async function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <Image
-              src="/images/logo.svg"
-              alt="Reklam Atölyesi"
-              width={280}
-              height={70}
-              className="h-16 w-auto mb-4"
-            />
+            <LogoLink>
+              <Image
+                src="/images/logo.svg"
+                alt="AYD Reklam"
+                width={280}
+                height={70}
+                className="h-16 w-auto mb-4"
+              />
+            </LogoLink>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Profesyonel tabela, logo tasarım, dijital baskı ve reklam
-              çözümleri ile markanızı bir adım öteye taşıyoruz.
+              AYD Reklam, Gaziantep’te tabela, kutu harf, dijital baskı, vinil germe ve kurumsal reklam
+              çözümleri sunan profesyonel bir reklam atölyesidir. İşletmenizin görünürlüğünü artırmak için
+              modern, kaliteli ve etkili tasarım ve uygulama hizmetleri sağlıyoruz.
             </p>
           </div>
 

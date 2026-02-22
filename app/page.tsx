@@ -4,6 +4,7 @@ import { FeaturedProjects } from '@/components/home/featured-projects';
 import { StatsSection } from '@/components/home/stats-section';
 import { ServicesPreview } from '@/components/home/services-preview';
 import { SlideButton } from '@/components/ui/slide-button';
+import { ScrollToTop } from '@/components/scroll-to-top';
 
 export default async function HomePage() {
   const supabase = await createClient();
@@ -18,6 +19,7 @@ export default async function HomePage() {
 
   return (
     <div>
+      <ScrollToTop />
       <HeroSection />
 
       <FeaturedProjects projects={featuredProjects || []} />
