@@ -4,7 +4,7 @@ export function OrganizationJsonLd() {
     '@type': 'LocalBusiness',
     name: 'Reklam Atölyesi',
     description: 'Profesyonel reklam, tabela ve dijital baskı çözümleri. Logo tasarım, kutu harf, cam giydirme ve daha fazlası.',
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://aydemireklam.com',
     telephone: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '',
     address: {
       '@type': 'PostalAddress',
