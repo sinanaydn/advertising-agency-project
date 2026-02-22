@@ -53,7 +53,7 @@ export default async function ServicesPage() {
     <div className="container py-12">
       <AnimatedHeading text="Hizmetlerimiz" as="h1" className="text-4xl font-bold mb-4" />
       <p className="text-lg text-muted-foreground mb-10 max-w-2xl">
-        Markanızı öne çıkarmak için profesyonel reklam ve tabela çözümleri sunuyoruz.
+        AYD Reklam olarak markanızı öne çıkarmak için profesyonel reklam ve tabela çözümleri sunuyoruz.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
