@@ -10,16 +10,17 @@ import { createClient } from '@/lib/supabase/server';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || 'https://aydemireklam.com'
-  ),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://aydemireklam.com"),
+  alternates: {
+    canonical: "/", // <-- canonical'ı ZORLA üretir
+  },
   title: {
-    default: 'Aydemir Reklam | Profesyonel Tabela ve Reklam Çözümleri',
-    template: '%s | Aydemir Reklam',
+    default: "Aydemir Reklam | Profesyonel Tabela ve Reklam Çözümleri",
+    template: "%s | Aydemir Reklam",
   },
   description:
-    "Logo tasarım, tabela, dijital baskı ve reklam çözümleri. İzmir'in güvenilir reklam atölyesi.",
-  keywords: ['reklam', 'tabela', 'logo tasarım', 'dijital baskı', 'İzmir'],
+    "Logo tasarım, tabela, dijital baskı ve reklam çözümleri. Gaziantep'in güvenilir reklam atölyesi.",
+  keywords: ['reklam', 'tabela', 'logo tasarım', 'dijital baskı', 'Gaziantep'],
   authors: [{ name: 'Aydemir Reklam' }],
   openGraph: {
     type: 'website',
