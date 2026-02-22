@@ -11,20 +11,20 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+    process.env.NEXT_PUBLIC_SITE_URL || 'https://aydemireklam.com'
   ),
   title: {
-    default: 'Reklam Atölyesi | Profesyonel Tabela ve Reklam Çözümleri',
-    template: '%s | Reklam Atölyesi',
+    default: 'Aydemir Reklam | Profesyonel Tabela ve Reklam Çözümleri',
+    template: '%s | Aydemir Reklam',
   },
   description:
     "Logo tasarım, tabela, dijital baskı ve reklam çözümleri. İzmir'in güvenilir reklam atölyesi.",
   keywords: ['reklam', 'tabela', 'logo tasarım', 'dijital baskı', 'İzmir'],
-  authors: [{ name: 'Reklam Atölyesi' }],
+  authors: [{ name: 'Aydemir Reklam' }],
   openGraph: {
     type: 'website',
     locale: 'tr_TR',
-    siteName: 'Reklam Atölyesi',
+    siteName: 'Aydemir Reklam',
   },
   twitter: {
     card: 'summary_large_image',
