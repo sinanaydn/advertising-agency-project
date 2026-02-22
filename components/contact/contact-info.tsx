@@ -18,7 +18,7 @@ export async function ContactInfo() {
     {
       icon: MapPin,
       label: 'Adres',
-      value: getValue('address', 'İzmir, Türkiye'),
+      value: getValue('address', 'Gaziantep, Türkiye'),
     },
     {
       icon: Phone,

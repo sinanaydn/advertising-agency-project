@@ -12,9 +12,9 @@ export function HeroSection() {
       <div className="relative z-10 container px-6 mx-auto max-w-3xl text-center">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
           {[
-            { text: 'Profesyonel', primary: false },
+            { text: 'AYD', primary: false },
             { text: 'Reklam', primary: true },
-            { text: 'Çözümleri', primary: true },
+            { text: 'Gaziantep', primary: true },
           ].map((word, i) => (
             <motion.span
               key={i}
@@ -36,8 +36,8 @@ export function HeroSection() {
 
         <FadeInUp delay={0.3}>
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-            Logo tasarım, tabela, dijital baskı ve daha fazlası. Markanızı bir
-            adım öteye taşıyoruz.
+            AYD Reklam ile logo tasarım, tabela, dijital baskı ve daha fazlası. Markanızı bir adım
+            öteye taşıyoruz.
           </p>
         </FadeInUp>
 
