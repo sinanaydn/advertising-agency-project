@@ -26,7 +26,7 @@ export async function Footer() {
 
   const phoneNumber = settingsMap.phone || '';
   const email = settingsMap.email || 'info@reklamatolyesi.com';
-  const address = settingsMap.address || 'İzmir, Türkiye';
+  const address = settingsMap.address || 'Gaziantep, Türkiye';
 
   return (
     <footer className="border-t border-border bg-card">
