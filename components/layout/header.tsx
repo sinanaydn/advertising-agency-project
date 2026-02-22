@@ -26,7 +26,7 @@ export function Header() {
         <Link href="/">
           <Image
             src="/images/logo.svg"
-            alt="Reklam Atölyesi"
+            alt="Aydemir Reklam"
             width={320}
             height={80}
             className="h-14 md:h-[72px] w-auto"
