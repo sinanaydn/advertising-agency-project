@@ -40,8 +40,8 @@ export default async function AboutPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         {about?.mission && (
-          <FadeInUp delay={0.2}>
-            <GlassCard className="flex flex-col">
+          <FadeInUp delay={0.2} className="h-full">
+            <GlassCard className="flex flex-col h-full">
               <CardHeader className="items-center text-center pb-2">
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 mb-2">
                   <Target className="h-6 w-6 text-primary" />
@@ -52,6 +52,7 @@ export default async function AboutPage() {
                 <ExpandableText
                   text={about.mission}
                   className="text-sm text-muted-foreground text-center leading-relaxed"
+                  clampClass="line-clamp-4"
                 />
               </CardContent>
             </GlassCard>
@@ -59,8 +60,8 @@ export default async function AboutPage() {
         )}
 
         {about?.vision && (
-          <FadeInUp delay={0.4}>
-            <GlassCard className="flex flex-col">
+          <FadeInUp delay={0.4} className="h-full">
+            <GlassCard className="flex flex-col h-full">
               <CardHeader className="items-center text-center pb-2">
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10 mb-2">
                   <Eye className="h-6 w-6 text-accent" />
@@ -71,6 +72,7 @@ export default async function AboutPage() {
                 <ExpandableText
                   text={about.vision}
                   className="text-sm text-muted-foreground text-center leading-relaxed"
+                  clampClass="line-clamp-4"
                 />
               </CardContent>
             </GlassCard>
