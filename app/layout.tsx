@@ -15,17 +15,17 @@ export const metadata: Metadata = {
     canonical: "/", // <-- canonical'ı ZORLA üretir
   },
   title: {
-    default: "Aydemir Reklam | Profesyonel Tabela ve Reklam Çözümleri",
-    template: "%s | Aydemir Reklam",
+    default: "AYD Reklam | Profesyonel Tabela ve Reklam Çözümleri",
+    template: "%s | AYD Reklam",
   },
   description:
     "Logo tasarım, tabela, dijital baskı ve reklam çözümleri. Gaziantep'in güvenilir reklam atölyesi.",
-  keywords: ['reklam', 'tabela', 'logo tasarım', 'dijital baskı', 'Gaziantep'],
-  authors: [{ name: 'Aydemir Reklam' }],
+  keywords: ['reklam', 'tabela', 'logo tasarım', 'dijital baskı', 'Gaziantep', 'Aydemir reklam', 'Gaziantep Reklam', 'aydreklam'],
+  authors: [{ name: 'AYD Reklam' }],
   openGraph: {
     type: 'website',
     locale: 'tr_TR',
-    siteName: 'Aydemir Reklam',
+    siteName: 'AYD Reklam',
   },
   twitter: {
     card: 'summary_large_image',
