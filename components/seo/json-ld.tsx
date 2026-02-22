@@ -8,7 +8,7 @@ export function OrganizationJsonLd() {
     telephone: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '',
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'İzmir',
+      addressLocality: 'Gaziantep',
       addressCountry: 'TR',
     },
     priceRange: '$$',
