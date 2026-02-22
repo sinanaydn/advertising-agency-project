@@ -10,6 +10,9 @@ import { FadeInUp } from '@/components/ui/fade-in-up';
 export const metadata: Metadata = {
   title: 'Hakkımızda',
   description: 'Reklam Atölyesi hakkında bilgi. Misyonumuz ve vizyonumuz ile profesyonel reklam çözümleri sunuyoruz.',
+  alternates: {
+    canonical: 'https://aydemireklam.com/hakkimizda',
+  },
 };
 
 export default async function AboutPage() {

@@ -27,6 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: project.title,
     description: project.description || `${project.title} - Reklam Atölyesi projesi`,
+    alternates: {
+      canonical: `https://aydemireklam.com/projeler/${slug}`,
+    },
     openGraph: {
       title: project.title,
       description: project.description || undefined,

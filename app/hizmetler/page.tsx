@@ -21,6 +21,9 @@ import { AnimatedHeading } from '@/components/ui/animated-heading';
 export const metadata: Metadata = {
   title: 'Hizmetlerimiz',
   description: 'Logo tasarım, tabela, kutu harf, dijital baskı, cam giydirme ve daha fazlası. Profesyonel reklam hizmetlerimiz.',
+  alternates: {
+    canonical: 'https://aydemireklam.com/hizmetler',
+  },
 };
 
 const iconMap: Record<string, React.ElementType> = {
