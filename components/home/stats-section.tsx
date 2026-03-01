@@ -56,7 +56,7 @@ function StatCard({ icon: Icon, target, suffix, label }: StatItem) {
         boxShadow: '0 0 30px rgba(59, 130, 246, 0.2)',
       }}
       transition={{ duration: 0.3, ease: 'easeOut' }}
-      className="text-center p-6 rounded-lg border border-border/50 bg-card/80 backdrop-blur-sm hover:border-primary/50 transition-colors"
+      className="text-center p-6 rounded-lg border border-border/50 bg-card/80 backdrop-blur-sm hover:border-primary/50 transition-colors h-full flex flex-col justify-center"
     >
       <div className="flex justify-center mb-4">
         <div className="flex h-14 w-14 items-center justify-center rounded-full bg-primary/10">
@@ -76,9 +76,9 @@ export function StatsSection() {
   return (
     <section className="container pb-24">
       <AnimatedHeading text="Rakamlarla Biz" className="text-3xl font-bold text-center mb-12" />
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
         {stats.map((stat, i) => (
-          <FadeInUp key={stat.label} delay={i * 0.15}>
+          <FadeInUp key={stat.label} delay={i * 0.15} className="h-full">
             <StatCard {...stat} />
           </FadeInUp>
         ))}
