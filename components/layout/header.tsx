@@ -31,6 +31,7 @@ export function Header() {
             width={320}
             height={80}
             className="h-14 md:h-[72px] w-auto"
+            loading="eager"
             priority
           />
         </LogoLink>

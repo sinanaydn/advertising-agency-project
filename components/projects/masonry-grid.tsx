@@ -1,20 +1,12 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Masonry from 'react-masonry-css';
 import { ProjectCard } from './project-card';
 import type { Project } from '@/types';
 
 interface MasonryGridProps {
   projects: Project[];
 }
-
-const breakpointColumns = {
-  default: 3,
-  1280: 3,
-  1024: 2,
-  640: 1,
-};
 
 export function MasonryGrid({ projects }: MasonryGridProps) {
   if (projects.length === 0) {
@@ -26,14 +18,11 @@ export function MasonryGrid({ projects }: MasonryGridProps) {
   }
 
   return (
-    <Masonry
-      breakpointCols={breakpointColumns}
-      className="flex gap-6 -ml-6"
-      columnClassName="pl-6 space-y-6"
-    >
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
       {projects.map((project, index) => (
         <motion.div
           key={project.id}
+          className="h-full"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: index * 0.05, duration: 0.4 }}
@@ -41,6 +30,6 @@ export function MasonryGrid({ projects }: MasonryGridProps) {
           <ProjectCard project={project} />
         </motion.div>
       ))}
-    </Masonry>
+    </div>
   );
 }

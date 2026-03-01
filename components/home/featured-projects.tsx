@@ -23,9 +23,9 @@ export function FeaturedProjects({ projects }: FeaturedProjectsProps) {
         </SlideButton>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
         {projects.map((project, index) => (
-          <FadeInUp key={project.id} delay={index * 0.1}>
+          <FadeInUp key={project.id} delay={index * 0.1} className="h-full">
             <ProjectCard project={project} />
           </FadeInUp>
         ))}
