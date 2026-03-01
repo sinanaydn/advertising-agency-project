@@ -14,7 +14,7 @@ interface StatItem {
 }
 
 const stats: StatItem[] = [
-  { icon: CheckCircle2, target: 5000, suffix: '+', label: 'Tamamlanan Proje' },
+  { icon: CheckCircle2, target: 5000, suffix: '+', label: 'Since 2015 den beri Tamamlanan Proje' },
   { icon: Users, target: 4500, suffix: '+', label: 'Memnun Müşteri' },
   { icon: Clock, target: 15, suffix: '+', label: 'Yıllık Deneyim' },
   { icon: Award, target: 98, suffix: '%', label: 'Müşteri Memnuniyeti' },
